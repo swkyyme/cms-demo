@@ -21,6 +21,10 @@
     "dev": "nodemon src/index.js",
     "start": "pm2-runtime start ecosystem.config.js --env production"
   },
-  "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": "10.x"
+  }
+  
+
 }
+
